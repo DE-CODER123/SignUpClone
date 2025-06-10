@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook ~~ Sign-up</title>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-[#f2f2f4]">
+    <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-[90%] max-w-[800px]">
+      <div class="w-full md:w-1/2 text-center md:text-left">
+        <h1 class="text-[#0866ff] text-4xl font-bold">facebook</h1>
+        <p class="text-gray-600 text-lg">Facebook helps you connect and share with the people in your life.</p>
+      </div>
+  
+      <!-- Login Form -Separate Card- -->
+      <div class="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/2 text-center">
+        <div class="mt-4 w-full">
+          <input type="text" placeholder="Email or phone" class="w-full p-2 border rounded-lg mb-2" required />
+          <input type="password" placeholder="Password" class="w-full p-2 border rounded-lg mb-2" required />
+          <button class="bg-[#0866ff] text-white w-full p-2 rounded-lg font-semibold">Log in</button>
+          <div class="mt-2">
+            <a href="#" class="text-[#0866ff] text-sm">Forgotten password?</a>
+          </div>
+        </div>
+        
+        <hr class="my-4 w-full">
+        
+        <button class="bg-green-500 text-white w-[50%] p-2 rounded-lg font-semibold text-sm">
+          Create new account
+        </button>        
+      </div>
+    </div>
+  </body>
+  
+</html>
