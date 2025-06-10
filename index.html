@@ -5,33 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Facebook ~~ Sign-up</title>
+    <title>Demo Social ~~ Sign-up (Educational Clone)</title>
   </head>
   <body class="flex items-center justify-center min-h-screen bg-[#f2f2f4]">
-    <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-[90%] max-w-[800px]">
+    <div class="absolute top-0 left-0 w-full bg-yellow-100 text-yellow-800 p-3 text-center font-semibold z-50">
+      This is a demo clone of a social media sign-up page for educational purposes only. It is <b>not</b> affiliated with or operated by Facebook, and does <b>not</b> collect any real data.
+    </div>
+    <div class="flex flex-col md:flex-row items-center justify-center gap-8 w-[90%] max-w-[800px] mt-16">
       <div class="w-full md:w-1/2 text-center md:text-left">
-        <h1 class="text-[#0866ff] text-4xl font-bold">facebook</h1>
-        <p class="text-gray-600 text-lg">Facebook helps you connect and share with the people in your life.</p>
+        <h1 class="text-blue-600 text-4xl font-bold">DemoBook</h1>
+        <p class="text-gray-600 text-lg">DemoBook helps you connect and share with the people in your life. (This is a student project.)</p>
       </div>
   
       <!-- Login Form -Separate Card- -->
       <div class="bg-white p-6 rounded-lg shadow-lg w-full md:w-1/2 text-center">
         <div class="mt-4 w-full">
-          <input type="text" placeholder="Email or phone" class="w-full p-2 border rounded-lg mb-2" required />
-          <input type="password" placeholder="Password" class="w-full p-2 border rounded-lg mb-2" required />
-          <button class="bg-[#0866ff] text-white w-full p-2 rounded-lg font-semibold">Log in</button>
+          <input type="text" placeholder="Email or phone" class="w-full p-2 border rounded-lg mb-2" disabled />
+          <input type="password" placeholder="Password" class="w-full p-2 border rounded-lg mb-2" disabled />
+          <button class="bg-blue-600 text-white w-full p-2 rounded-lg font-semibold" disabled>Log in</button>
           <div class="mt-2">
-            <a href="#" class="text-[#0866ff] text-sm">Forgotten password?</a>
+            <span class="text-blue-600 text-sm opacity-50">Forgotten password? (Demo only)</span>
           </div>
         </div>
         
         <hr class="my-4 w-full">
         
-        <button class="bg-green-500 text-white w-[50%] p-2 rounded-lg font-semibold text-sm">
+        <button class="bg-green-500 text-white w-[50%] p-2 rounded-lg font-semibold text-sm" disabled>
           Create new account
         </button>        
       </div>
     </div>
   </body>
-  
 </html>
